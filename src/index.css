@@ -69,6 +69,8 @@ p{
 }
 img{
   border-radius: 10px;
+  height: 300px;
+      width: 300px;
 }
 @media only screen and (max-width: 600px) {
   body {
@@ -89,50 +91,52 @@ img{
     }
     #index{
       width: 1300px;
-      height: 1000px;
+      height: 1500px;
       background-image: url('https://images.alphacoders.com/876/876589.jpg');
       background-position: inherit;
-      background-size: cover;
       position: relative;
     }
     #main-box{
+      margin-top:300px ;
       width: 70%;
-      height: 400px;
+      height: 800px;
       background-color: rgba(51, 50, 50, 0.9);
       position: absolute;
       color: white;
+      
     }
     #search{
       margin-top: 30px;
     }
     h1{
-      font-size: 30px;
+      font-size: 150px;
       margin-bottom: 0px;
       
     }
     h3{
       margin-top: 0px;
-      font-size: 20px;
+      font-size: 60px;
     }
     label{
-      font-size: medium;
+      font-size: 40px;
     }
     #input{
-      width: 200px;
-      height: 20px;
+      width: 500px;
+      height: 40px;
     }
     #flex{
+      width: 1300px;
+      height: 100%;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-    
       background-color: rgb(110, 103, 103);
     }
     .setmovieCss{
-      width: 300px;
-      height: 400px;
+      width: 200px;
+      height: 300px;
       background-color: rgb(63, 62, 62);
-      margin: 50px 50px;
+      margin: 30px 50px;
       border-radius: 10px;
     }
     p{
@@ -141,5 +145,8 @@ img{
     }
     img{
       border-radius: 10px;
+      height: 200px;
+      width: 200px;
+      font-size: large;
     }
   }
